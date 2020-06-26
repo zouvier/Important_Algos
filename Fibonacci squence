@@ -2,8 +2,6 @@ from functools import lru_cache
 
 @lru_cache(maxsize=1000)
 def fibonacci(n):
-    # check to see if n is positive
-    if
     if n == 1:
         return 1
     elif n == 2:
